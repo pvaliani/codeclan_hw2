@@ -38,3 +38,11 @@ def join_string(string_1, string_2):
 #eigthth test function to add two strings as converted ints
 def add_string_as_number(string_4, string_5):
     return int(string_4) + int(string_5)
+
+#ninth test function to convert number to full name of month 
+import datetime
+#import datetime to utilise its date conversion properties
+def number_to_full_month_name(month_number):
+    datetime_object = datetime.datetime.strptime(str(month_number), "%m")
+    month_name = datetime_object.strftime("%B")
+    return month_name
