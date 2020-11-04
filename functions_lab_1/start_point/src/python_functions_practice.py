@@ -34,3 +34,7 @@ def join_string(string_1, string_2):
     string_2 = "its fleece was white as snow"
     string_3 = string_1 + string_2
     return string_3
+
+#eigthth test function to add two strings as converted ints
+def add_string_as_number(string_4, string_5):
+    return int(string_4) + int(string_5)
