@@ -27,3 +27,10 @@ def divide(num_9, num_10):
 #sixth test function to return length of a string
 def length_of_string(string):
     return len(string)
+
+#seventh test function to join to strings
+def join_string(string_1, string_2):
+    string_1 = "Mary had a little lamb, "
+    string_2 = "its fleece was white as snow"
+    string_3 = string_1 + string_2
+    return string_3
