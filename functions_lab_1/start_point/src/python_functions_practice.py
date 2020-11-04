@@ -17,3 +17,8 @@ def subtract(num_3, num_4):
 def multiply(num_6, num_7):
     num_8 = num_6 * num_7
     return num_8
+
+#fifth test function to divide two integers
+def divide(num_9, num_10):
+    num_11 = num_9 / num_10
+    return num_11
