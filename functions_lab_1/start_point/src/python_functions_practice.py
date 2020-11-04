@@ -67,3 +67,10 @@ def number_to_short_month_name(month_number_2):
     datetime_object = datetime.datetime.strptime(str(month_number_2), "%m")
     month_name_2 = datetime_object.strftime("%b") #lower case b for shorthand month
     return month_name_2
+
+#thirteenth test function to convert number to short name of month - April
+
+def number_to_short_month_name(month_number_2):
+    datetime_object = datetime.datetime.strptime(str(month_number_2), "%m")
+    month_name_2 = datetime_object.strftime("%b") #lower case b for shorthand month
+    return month_name_2
