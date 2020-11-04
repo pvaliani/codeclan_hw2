@@ -22,3 +22,8 @@ def multiply(num_6, num_7):
 def divide(num_9, num_10):
     num_11 = num_9 / num_10
     return num_11
+
+
+#sixth test function to return length of a string
+def length_of_string(string):
+    return len(string)
