@@ -39,10 +39,31 @@ def join_string(string_1, string_2):
 def add_string_as_number(string_4, string_5):
     return int(string_4) + int(string_5)
 
-#ninth test function to convert number to full name of month 
+#ninth test function to convert number to full name of month - January
 import datetime
 #import datetime to utilise its date conversion properties
 def number_to_full_month_name(month_number):
     datetime_object = datetime.datetime.strptime(str(month_number), "%m")
     month_name = datetime_object.strftime("%B")
     return month_name
+
+#tenth test function to convert number to full name of month - March
+
+def number_to_full_month_name(month_number):
+    datetime_object = datetime.datetime.strptime(str(month_number), "%m")
+    month_name = datetime_object.strftime("%B") #upper case B for long name month
+    return month_name
+
+#eleventh test function to convert number to full name of month - September
+
+def number_to_full_month_name(month_number):
+    datetime_object = datetime.datetime.strptime(str(month_number), "%m")
+    month_name = datetime_object.strftime("%B")
+    return month_name
+
+#twelfth test function to convert number to short name of month - January
+
+def number_to_short_month_name(month_number_2):
+    datetime_object = datetime.datetime.strptime(str(month_number_2), "%m")
+    month_name_2 = datetime_object.strftime("%b") #lower case b for shorthand month
+    return month_name_2
