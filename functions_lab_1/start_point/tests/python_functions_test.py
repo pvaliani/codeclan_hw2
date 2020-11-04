@@ -71,7 +71,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
       fourth_month_string = number_to_short_month_name( 4 )
       self.assertEqual( "Apr", fourth_month_string )
 
-  @unittest.skip("delete this line to run the test")
+  
   def test_number_to_short_month_name__month_10(self):
       tenth_month_string = number_to_short_month_name( 10 )
       self.assertEqual( "Oct", tenth_month_string )
