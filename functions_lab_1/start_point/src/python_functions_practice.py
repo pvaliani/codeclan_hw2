@@ -12,3 +12,8 @@ def add(num_1, num_2):
 def subtract(num_3, num_4):
     num_5 = num_3 - num_4
     return num_5
+
+#fourth test function to multiply two integers
+def multiply(num_6, num_7):
+    num_8 = num_6 * num_7
+    return num_8
