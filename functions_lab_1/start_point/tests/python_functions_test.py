@@ -87,10 +87,10 @@ class TestPythonFunctionPractice(unittest.TestCase):
 
   #Given a String, return the String reversed
   #@unittest.skip("delete this line to run the test")
-#   def test_reverse_string(self):
-#     reverse_string_test = reverse_string( "hello" )
-#     self.assertEqual( "olleh", reverse_string_test)
-#     pass
+  def test_reverse_string(self):
+    reverse_string_test = reverse_string( "i" )
+    self.assertEqual( "i", reverse_string_test)
+    
 
   #Given a value in farenheit, convert this into celsius.
   #@unittest.skip("delete this line to run the test")

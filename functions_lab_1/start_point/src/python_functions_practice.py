@@ -89,7 +89,10 @@ def volume_of_cube(length_side):
 
 #sixteenth test function to reverse a string
 def reverse_string(string):
-    return string.reverse()
+    new_string = list(string)
+    new_string.reverse()
+    final_string = ''.join(new_string)
+    return final_string
 
 #seventeenth test function to convert farenheit to celcius 
 
