@@ -81,3 +81,18 @@ def number_to_short_month_name(month_number_2):
     datetime_object = datetime.datetime.strptime(str(month_number_2), "%m")
     month_name_2 = datetime_object.strftime("%b") #lower case b for shorthand month
     return month_name_2
+
+# fifteenth test function to calculate volume of a cube given a side
+def volume_of_cube(length_side):
+    volume = length_side * length_side * length_side
+    return volume
+
+#sixteenth test function to reverse a string
+def reverse_string(string):
+    return string.reverse()
+
+#seventeenth test function to convert farenheit to celcius 
+
+def fahrenheit_to_celsius(fahrenheit):
+    return ((fahrenheit-32) * 5)/9
+
